@@ -1,0 +1,112 @@
+#Navbar{
+    margin-left: 17%;
+    background-image: url(pictures/Dark-interior-design.jpg);
+    height: 720px;
+    width: 1250px;
+    color: white;
+    text-align: center;
+}
+#nav{
+    display: flex;
+    gap: 30%;
+    background-color: rgb(49, 47, 47);
+    height: 10%;
+}
+.choices{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+}
+#button{
+    background-color: sienna;
+    color: white;    
+}
+.h1{
+    font-size: 500%;
+}
+.minis{
+    text-align: center;
+}
+.leather{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+}
+.master{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+}
+#modern{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+}
+#prestige{
+    display: flex;
+    justify-content: center;
+}
+.pics{
+    display: grid;
+    grid-template-columns: 1 1fr;
+}
+.home{
+    display: grid;
+    grid-template-columns: 1 1fr;
+}
+#footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    gap: 8%;
+    width: 70%;
+    margin-left: 20%;
+}
+.imgs{
+    display: flex;
+    justify-content: center;
+}
+.customer{
+    display: flex;
+    justify-content: center;
+}
+#last{
+    text-align: center;
+}
+
+@media screen and (max-width:576px){
+    body{
+        #Navbar{
+            margin-left: 17%;
+            background-image: url(pictures/Dark-interior-design.jpg);
+            height: 450px;
+            width: 600px;
+            color: white;
+            text-align: center;
+        }
+        .h1{
+            font-size: 200%;
+        }
+        .choices{
+           display: grid;
+           grid-template-columns: 1 1fr;
+            justify-content: center;
+        }
+        .customer{        
+            height: 350px;
+            width: 350px;
+        }
+        .leather{
+            display: grid;
+            grid-template-columns: 1 1fr;
+        }
+        .master{
+            display: grid;
+            grid-template-columns: 1 1fr;
+        }
+        #modern{
+            display: grid;
+            grid-template-columns: 1 1fr;
+        } 
+    }    
+}
